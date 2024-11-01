@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Preconnect -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <title>el_dev Coffee</title>
+
+    <!-- Preload -->
+    <link rel="preload" href="css/normalize.css" as="style" />
+    <link rel="stylesheet" href="css/normalize.css" />
+
+    <link
+      rel="preload"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap"
+      as="font"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preload" href="css/style.css" as="style" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Prefetch -->
+    <link rel="prefetch" href="courses.html" as="document" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="bar">
+          <a href="index.html" class="logo">
+            <h1 class="logo__name no-margin text-center">
+              el_dev <span class="logo__bold">Coffee</span>
+            </h1>
+          </a>
+          <nav class="nav">
+            <a href="about-us.html" class="nav__link">About Us</a>
+            <a href="courses.html" class="nav__link">Courses</a>
+            <a href="contact.html" class="nav__link">Contact</a>
+          </nav>
+        </div>
+      </div>
+      <div class="header__text">
+        <h2 class="no-margin">Coffee Blog - Tips & Courses</h2>
+        <p class="no-margin">Learn the best recipes from the experts</p>
+      </div>
+    </header>
+
+    <main class="container">
+      <h3 class="text-center">About Us</h3>
+      <div class="about-us">
+        <div class="about-us__img">
+          <img src="img/about-us.jpg" alt="Several cups of coffee" />
+        </div>
+        <div class="about-us__text">
+          <p>
+            Cras feugiat magna ac porta sodales. Vivamus accumsan sem a viverra
+            viverra. Sed sed commodo mauris. Duis consequat dui a eleifend
+            sollicitudin. Vivamus bibendum orci ac nisi congue, vel rutrum massa
+            lobortis. Nulla sit amet eros in turpis euismod sollicitudin.
+            Integer ultricies libero vehicula felis vestibulum, sed tincidunt
+            justo lacinia. Vestibulum in dolor gravida, malesuada neque
+            bibendum, rhoncus orci.
+          </p>
+          <p>
+            Nulla quis auctor ante. Donec condimentum facilisis felis, quis
+            ultrices massa blandit ac. Vestibulum convallis massa sed consequat
+            porttitor. Aenean auctor arcu ut orci bibendum ultricies. Curabitur
+            tristique iaculis nibh. Maecenas dapibus eros metus, vel feugiat
+            eros consequat vel. Praesent dignissim quam id nisl luctus porta.
+          </p>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="bar">
+          <a href="index.html" class="logo">
+            <h1 class="footer-logo__name no-margin text-center">
+              el_dev <span class="footer-logo__bold">Coffee</span>
+            </h1>
+          </a>
+          <nav class="nav">
+            <a href="about-us.html" class="nav__link">About Us</a>
+            <a href="courses.html" class="nav__link">Courses</a>
+            <a href="contact.html" class="nav__link">Contact</a>
+          </nav>
+        </div>
+      </div>
+      <script src="js/modernizr.js"></script>
+    </footer>
+  </body>
+</html>
